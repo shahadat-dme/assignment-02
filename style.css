@@ -170,10 +170,11 @@ label.logo {
         flex-direction: column-reverse;
     }
 
-    /* .collect {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-    } */
+    .collect {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
 
     .feature {
         flex-direction: column-reverse;
